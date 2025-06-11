@@ -393,9 +393,9 @@ async def main():
     try:
         bgm_path = "assets/bgm_main.ogg"
         pygame.mixer.music.load(bgm_path)
-        pygame.mixer.music.set_volume(0.5)  # 音量を50%に設定
+        pygame.mixer.music.set_volume(0.2)  # 音量を20%に設定
         pygame.mixer.music.play(-1)
-        print(f"BGM再生: {bgm_path} (音量: 0.5)")
+        print(f"BGM再生: {bgm_path} (音量: 0.2)")
     except Exception as e:
         print(f"警告: BGMの読み込みに失敗しました: {str(e)}")
     
